@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Super Fitt</title>
+	<link rel="stylesheet" type="text/css" href="css/cart.css">
+	<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    /> 
+	<script src="js/cart.js"></script>
+</head>
+<body>
+	
+	
+	<nav>
+		<div class="logo"><img  src="images/SuperFITe.png " height="88px" width="88px"></div>
+		<ul>
+			<li><a href="home.php">Home</a></li>
+			<li><a href="about-us.html">About Us</a></li>
+			<div class="dropdown">
+			<button class="dropbtn">Gallery 
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		<a href="Gallery.html">Photo Gallery</a>
+		<a href="#">Video Gallery</a>
+      
+		</div>
+		</div>
+			<li><a href="BMI.php">Classes</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<div class="dropdown">
+				<button class="dropbtn">Profile
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			<a href="user.php">User</a>
+			<a href="iprofile.html">Instructor</a>
+		  
+			</div>		
+		</div>
+
+		<div class="shop-cart">
+			<a href="cart.html" target="_blank"><i class="fa fa-cart-plus">Cart</i></a>
+			
+		</div>	
+	</nav>
+	
+	<!-- navigation end -->
+	
+	
+	<div class="page_content">
+	<h2 class="maintpc">Cart</h2>
+	<hr class="hr1">
+	<br><br><br><br>
+	<center>
+		<table width="50%", border="1" id="pricetable">
+		<tr>
+			<th style="text-align:center;">Name</th>
+			<th style="text-align:center;">Delete Item</th>
+			<th style="text-align:center;">Price</th>
+			<th style="text-align:center;">Total</th>
+			
+		</tr>
+		<tr>
+		<td>
+		<div class="rowitem">
+				<img src="images/FT1.jpg" class="courseimage"> 
+				<h4 class="cname" align:"right" id="course1">Basic<h4>
+				
+		</div>
+		</td>
+		<div class="row4del"></div>
+			<td>
+			<button class="removebtn" type="button">Remove Item</button>
+			</td>	
+			<td>
+		
+			<h4 class="colfee">50$</h4>
+			</td>
+			<td>
+			<h4 class="tot">50$</h4>
+		</td>
+	</div>
+		</tr>
+		
+		<tr>
+		<td>
+		<div class="rowitem">
+				<img src="images/FT2.jpg" class="courseimage"> 
+				<h4 class="cname" align:"right">Standard<h4>
+				
+			</div>
+		</td>
+		<div class="row4del">
+		<td>
+		<button class="removebtn" type="button">Remove Item</button>
+		</td>
+		<td>
+		
+			<h4 class="colfee">20$</h4>
+		</td>
+		<td>
+			<h4 class="tot">20$</h4>
+		</td>
+		
+		</tr>
+	</div>
+		
+		<tr>
+		<td>
+	<div class="rowitem">
+				<img src="images/FT3.jpg" class="courseimage"> 
+				<h4 class="cname" align:"right">Premium<h4>
+				
+				</div>
+			</td>
+	<div class="row4del">
+		<td>
+		<button class="removebtn" type="button">Remove Item</button>
+		</td>
+		<td>
+		
+			<h4 class="colfee">30$</h4>
+		</td>
+		<td>
+			<h4 class="tot">30$</h4>
+		</td>
+		</tr>
+	</div>
+		
+	
+		
+		</tr>
+		
+		<tr>
+			
+			<td class="totalamount_align">Total Amount</td>
+			<td colspan="3" class="ftot_align">$100.00</td>
+		
+		</tr>
+	
+		</table>
+		<br><br>
+		
+		<a href="checkout.php">
+		<Button class="checkoutbtn" onclick="alertFunction()" >Proceed To Checkout</Button>
+		</a>
+		
+	
+	</div>
+	</center>
+	<!-- footer -->
+	
+	<hr class = "line-before-footer">
+	<footer>
+		<div class="footer_content">
+			<div class="center_details">
+				<ul class="details">
+					<li>Contact : 071-8569875</li>
+					<li>Email : superfit@gmail.com</li>
+					<li>Address : No,10 Galle Road, Colombo 02</li>
+					<li>Branches : Kadawatha 
+					</li> 
+					
+				</ul>
+				
+			</div>
+			<div class="left_col">
+				<h2>Newsletter</h2>
+				<div class="border"></div>
+				<p>Enter your Email to get News and Updates</p>
+				<form action="" class="newsletter_form">
+					<input type="Email" class="txt" placeholder="Enter Email" name="">
+					<input type="submit" class="btn" value="Submit" name="">
+					
+				</form>
+			</div>
+			<div class="footer_links">
+				<h4>Quick Links</h4>
+				<ul>
+					<li><a href="home.php">Home</a></li>
+							<li><a href="Gallery.html">Gallery</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="displayFAQuser.php">FAQ</a></li>
+							<li><a href="classes.php">Classes</a></li>
+					
+				</ul>
+			</div>
+				
+			</div>
+			
+			<div class="social">
+				<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+				<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>				
+			</div>
+			
+		</div>
+		<div class="footer_bottom">
+			<p>All right reserved<br/>Copyright &copy;2021 SuperFit </p>
+			
+		</div>
+	</footer>
+
+
+
+</body>
+</html>

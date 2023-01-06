@@ -1,0 +1,55 @@
+html,body{
+  height: 100%;
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: 'Times New Roman', Times, serif;
+  background: black;
+}
+
+.wellcome {
+  font-size: 30px;
+  color: red;
+
+}
+
+
+
+.log {
+  border: none;
+  border-radius: 12px;
+  width: 150px;
+  height: 60px;
+  background: rgb(255, 196, 0);
+  font-size: 20px;
+}
+
+.log a {
+  text-decoration: none;
+  color: black;
+}
+
+.log:hover {
+  background-color: #46b307;
+}
+
+.ilog {
+  border: none;
+  border-radius: 12px;
+  width: 150px;
+  height: 60px;
+  background: rgb(255, 196, 0);
+  font-size: 20px;
+  margin-left: 110px;
+}
+
+.ilog a {
+  text-decoration: none;
+  color: black;
+}
+
+.ilog:hover {
+  background-color: #46b307;
+}
+
+
+

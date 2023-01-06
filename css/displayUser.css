@@ -1,0 +1,31 @@
+body{                                                 
+  font-family: sans-serif; 
+  background: url(images/wall.jpg);
+  background-size: cover
+}
+
+.dis {
+  border: none;
+  border-radius: 12px;
+  width: 200px;
+  height: 60px;
+  background: rgb(255, 196, 0);
+  font-size: 20px;
+}
+
+.dis a {
+  text-decoration: none;
+  color: black;
+}
+
+.dis:hover {
+  background-color: #46b307;
+}
+
+.topic {
+  color: rgb(255, 196, 0);
+}
+
+table {
+  width: 80%;
+}

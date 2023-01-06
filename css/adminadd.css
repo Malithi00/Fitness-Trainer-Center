@@ -1,0 +1,137 @@
+body{                                                     
+  font-family: sans-serif; 
+  background: url(images/wk.jpg) no-repeat center center fixed; 
+  /*Read & learn some codings to lock the background image from Stackoverflow.com*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+}
+
+
+.Register-title {
+  font-family: 'Times New Roman';
+  margin-top: 4px;
+  border-bottom: 6px solid #4caf50 ;
+  font-size: 40px;
+  text-align: center;
+  width: 180px;
+}
+
+.form {
+  color: #fff;
+  border: 3px solid #4caf50;
+  background: none;
+  margin: auto;
+  width:50%;
+  padding: 50px;
+  padding-top: 20px;
+  margin-top: 70px;
+}
+
+.textbox {
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  background: none;
+  width:100%;
+  height: 30px;
+  border: #fff;
+  border-bottom: 3px solid #4caf50;
+}
+
+.textbox::placeholder {
+  font-size: 16px; 
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+.dob {
+  background: none;
+  font-size: 16px; 
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  width:100%;
+  height: 30px;
+  border: #fff;
+  border-bottom: 3px solid #4caf50;
+}
+
+.addressbox {
+  font-size: 16px;
+  color: #fff;
+  background: none;
+  width:100%;
+  border-radius: 6px;
+  border: 3px solid #4caf50;
+}
+
+.healthbox {
+  font-size: 16px;
+  color: #fff;
+  background: none;
+  width:100%;
+  border-radius: 6px;
+  border: 3px solid #4caf50;
+}
+
+.health {
+  font-size: 16px;
+  color: red;
+}
+
+.privacy {
+  font-size: 16px;
+  color: rgb(255, 196, 0);
+}
+
+.login {
+  border: none;
+  border-radius: 6px;
+  width: 80px;
+  height: 30px;
+  background: red;
+  font-size: 16px;
+}
+
+.login a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.login:hover {
+  background-color: rgb(255, 196, 0);
+}
+
+.register {
+  border-radius: 6px;
+  width: 200px;
+  height: 50px;
+  background: #4caf50;
+  cursor: pointer;
+  font-size: 22px;
+  color: white;
+}
+
+.register:hover {
+  background-color: rgb(255, 196, 0);
+  color: black;
+}
+
+.dis {
+  border: none;
+  border-radius: 12px;
+  width: 200px;
+  height: 60px;
+  background: rgb(255, 196, 0);
+  font-size: 20px;
+}
+
+.dis a {
+  text-decoration: none;
+  color: black;
+}
+
+.dis:hover {
+  background-color: #46b307;
+}

@@ -1,0 +1,74 @@
+
+    body {
+        padding: 0px;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 20px;
+		
+    }
+    
+    table {
+		
+        position: relative;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, -50%);
+        border-collapse: collapse;
+        width: 1700px;
+        height: 300px;
+        border: 1px solid white;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+		margin-top: 250px;
+    }
+    
+
+    th,
+    td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid white;
+    }
+    
+    #header {
+        background-color: #002600;
+        color: #fff;
+    }
+	
+	tr{
+		color : #B7FF03;
+	}
+
+    tr:hover {
+        background-color: #333333;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    @media only screen and (max-width: 768px) {
+        table {
+            width: 90%;
+        }
+    }
+
+h1{
+	font-size: 50px;
+	margin-left: 750px;
+	font-family: Open Sans;
+	font-weight: 1000px;
+    padding: -10px;
+    display: inline-block;
+    color: #3b1e08;
+    border-bottom: 1px solid #3b1e08;
+    margin-bottom: -50px;
+	margin-top: 40px;
+	
+
+}
+
+.table{
+	background-image:  url(images/tiles.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+}

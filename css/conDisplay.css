@@ -1,0 +1,28 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+td, th {
+    border:3px solid #DF013A;
+    text-align: center;
+    padding: 8px;
+
+}
+
+
+td{
+	background-color: #00FFFF;
+	color:black;
+}
+
+
+body{
+background-image:url("../images/about/1.jpg");
+background-repeat:no repeat;
+
+}

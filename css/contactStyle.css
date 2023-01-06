@@ -1,0 +1,58 @@
+h3{
+font-family:'times new roman';
+font-size:50px;	
+color: #4caf50;
+}
+
+
+body{
+background-image:url("../images/about/1.jpg");
+background-repeat:no repeat;
+//background-size:cover;
+}
+
+.clz{
+display:inline-block;
+background:	linear-gradient(45deg, #87adfe, #ff77cd);
+border-radius:6px;
+padding:10px 20px;
+box-sizing:border-box;
+text-decoration:none;
+color:#4caf50;
+box-shadow:3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+.form{
+	width: 400px;
+	height:900px;
+	background: linear-gradient(to top, rgba(0,0,0,0.8)50% , rgba(0,0,0,0.8)50%);
+	//background: linear-gradient(45deg, #87adfe, #ff77cd);
+	top: -20px;
+	left: 870px;
+	border-radius: 10px;
+	padding: 25px;
+	color:#4caf50;
+}
+
+p{
+color:White;	
+}
+
+.form h2{
+	width: 220px;
+	font-family: snas-serif;
+	text-align: center;
+	color: #0000FF;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 8px;
+}
+
+/*Template*/
+.line-before-footer{
+  background-color: transparent;
+  border-color:transparent;
+  margin-top: 130px;
+}
+
